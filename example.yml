@@ -1,0 +1,422 @@
+cloud_provider:
+  cert:
+    ca: |
+      -----BEGIN CERTIFICATE-----
+      MIIDFDCCAfygAwIBAgIRAPW9PVuOqPs+Kkpg9avuWdowDQYJKoZIhvcNAQELBQAw
+      MzEMMAoGA1UEBhMDVVNBMRYwFAYDVQQKEw1DbG91ZCBGb3VuZHJ5MQswCQYDVQQD
+      EwJjYTAeFw0xNzA4MzExOTA1MjZaFw0xODA4MzExOTA1MjZaMDMxDDAKBgNVBAYT
+      A1VTQTEWMBQGA1UEChMNQ2xvdWQgRm91bmRyeTELMAkGA1UEAxMCY2EwggEiMA0G
+      CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdNBxTjKJSjb+85XNyH+hk2MkPTt7v
+      /Ah9wTJFDCpTM3SgV13u5nKrpJUsmJKMPHkvvW/bIP8DgSf/3Ky8ykTKj9uC9IKr
+      px5nzBlJZEJURdIVdD/F5tkzkbAliviGCqvBvrIpsZ34BHrlhCf8YcQfIZOhsK/w
+      Sq3Qmu0YsLJaA9z6aEc2fOMaM4BZ88YniNsozzgEV696Y1OqNGVmSSHOLI46vkcg
+      2W9QWG9ajNOV62qymo8wyatt/pWsdiBI3iC5DEg0TVzKVOBesTRJOsZ5WqPQOUP1
+      +KerN5MHGmXv1jPwtzfDK+WSWXNCw/7AUeRFMZyd8ApJxd6nxYznU39ZAgMBAAGj
+      IzAhMA4GA1UdDwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEB
+      CwUAA4IBAQCv2aM0s00aGo9bHBd3X7ElyYCW0IgzxLLJdLEN7+O+/C9DCzbAkQAQ
+      rxs+X8VgAnNRrl27gxLD+gyuX9op+UN+/9awgMuV0o29DerXyUwCj57Zu2dUWZ+B
+      SNhV38hOEdw+sMsVfc0H5xdKXffzAGuH3ActYZRXjNgoebSxb5TeC/r6bsXV4uDL
+      rfa8zRSixlCrEtxDrnriMpdNTLIlhuOjTsQAa5xmgAQ0nigHeveKVa0ECLHNQ6G2
+      /+etmPpa0vPJy9QuKK7PJD9okAJlOT6s76Db0fFLP/yw9XjB10AJEov7mkIQkd4A
+      AYY2zceV923WGrOvj8wMgnFAwbVAkDV2
+      -----END CERTIFICATE-----
+    certificate: |
+      -----BEGIN CERTIFICATE-----
+      MIIDQTCCAimgAwIBAgIRAMibukE6L44bojDFd89+APwwDQYJKoZIhvcNAQELBQAw
+      MzEMMAoGA1UEBhMDVVNBMRYwFAYDVQQKEw1DbG91ZCBGb3VuZHJ5MQswCQYDVQQD
+      EwJjYTAeFw0xNzA4MzExOTA1MjdaFw0xODA4MzExOTA1MjdaMD0xDDAKBgNVBAYT
+      A1VTQTEWMBQGA1UEChMNQ2xvdWQgRm91bmRyeTEVMBMGA1UEAxMMMTkyLjE2OC41
+      MC42MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtFEZ8ptDpDODNwm4
+      pRcLi+tN6RCyNs5XrYSFHbQzINZSz/g9qYh9pdZWbZiDO4N2YZUeuz9ocdNGCN7y
+      W+YiooP/OQV16hCa5bBG9xFx1ZgzdxUGINWLYVtEUoT7KT8lwNbqbH9McmnGnUni
+      nUfyfb6Cr8edqWL/4rOMUn8sy2b4/X789xWkDL8Cy8bNXS2COOMUtz0XnOmArVkI
+      PH077BP4tatAeLisfVvfyQ+UepZGvLcceOdg24CERhl/NpRAMfzdjFtOoD5L07kC
+      l9mdtafhw+BSutaThcr7EnhGmfHoZVfJe/7/Om5sZSlym49p9OTN2Vg+NyQ/VtnJ
+      FNhe4QIDAQABo0YwRDAOBgNVHQ8BAf8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUH
+      AwEwDAYDVR0TAQH/BAIwADAPBgNVHREECDAGhwTAqDIGMA0GCSqGSIb3DQEBCwUA
+      A4IBAQCB837cJ+7ndwzsvXpaoLpjNbb0uLIyBrWwtx66scVrh0xD9CH+8Seta3pe
+      w8nqKOcUtwXoCWY80TWMx/onCnQYwbJqk3nK1uacwI0E1V4gKp/cnGkQJ/onrVRA
+      arXCUinmhruBWduFevLzpZh/vfEd7FV+xRymG4i+ywX3Hr8PhUiPHd9DLSTS3hNW
+      eQ/BWxivObj0vl20i6p8BGXo/B4WX49le2Pw79TKlzYd7d18PlIQFs9SLJYrgL1S
+      Bo3wdI0YnDSA78hRV0C5JP4Mri4+25wbY4OGys7dBzR0TN7X5R5k2OB/J3y/osja
+      MheqLQKnn1S4NFeKmT75oY0SkFwH
+      -----END CERTIFICATE-----
+    private_key: |
+      -----BEGIN RSA PRIVATE KEY-----
+      MIIEowIBAAKCAQEAtFEZ8ptDpDODNwm4pRcLi+tN6RCyNs5XrYSFHbQzINZSz/g9
+      qYh9pdZWbZiDO4N2YZUeuz9ocdNGCN7yW+YiooP/OQV16hCa5bBG9xFx1ZgzdxUG
+      INWLYVtEUoT7KT8lwNbqbH9McmnGnUninUfyfb6Cr8edqWL/4rOMUn8sy2b4/X78
+      9xWkDL8Cy8bNXS2COOMUtz0XnOmArVkIPH077BP4tatAeLisfVvfyQ+UepZGvLcc
+      eOdg24CERhl/NpRAMfzdjFtOoD5L07kCl9mdtafhw+BSutaThcr7EnhGmfHoZVfJ
+      e/7/Om5sZSlym49p9OTN2Vg+NyQ/VtnJFNhe4QIDAQABAoIBACFo8YTZLeRLwyE8
+      hODZ70LCm5H2jP7Ipsg4yK1jSSHpdDiih1JVPuquVx9BZfdt+U5FYgdRzVlhyxUz
+      sfZDIuG30V9QWrO+1eR/D/cRXWU1KTwEQjltN8EXNwaPKzZORAGCELd/srt0S9+y
+      4/E+dnjEBtTpCJZtCHqJyBM1Cyi4oK1z3oPvMBzyJiERVOhu369sKnDqsq06b2fI
+      rX8l8BIlsPbR7515vofPrVpWNWHMvSC/Zvt7UN9X7GXU5dYp5LICqnxqGDqWEOHE
+      75+OlUPQHCA3qtkjPdaT9XlnZ2GY0TjyzfNcsGfSc0jmbeysiT79AjoWRfHGEWz+
+      UveuIy0CgYEA68ZqAkZp/3tHe7u0gJ7BXJldTmIxbwCqLBKF2GB+o8VVlf5X8/mb
+      F5zeNJnR9ugBiKZqwWHYT2cH1+RLX47osuBlkxYDdVOTjZGvI5VO95m7uXrU26j6
+      4wLyfbyuNk4CUSOBvYuNkGmlMwKYnea4VXknAqSYOee/WygapcY9cesCgYEAw8jV
+      BE7FfQ67MxaTfc6OC2QIMQbpjm2MVH6oUjStggjP5wmnMkhmYMAP7tDNVpFgdd7i
+      IPgaooHMsOYW0l3eC/CbDdl65RHtDsC+7+LknCZkdAFet4r+ebj3u29y5Mh8G1zS
+      FdgknVU/eK/sCSgQsvey48koVJb9GZUQOHPKs2MCgYBCndQUAnsukVF4N2ffs3tk
+      w3xmij33ZBOw0ib5JQKDGV1+PNfy+kKE4HC0IgX+Ij1Us9iT/SZWAQFpUXqubD15
+      VQe+EEk33D5jkJcQkb43HTu6Q2djDRKeE5YaSrZaZ54l+MdOm+CKvh7ME961Npw8
+      ojeQepr8OWuKwQEOd72iswKBgQCf5aGzhvHblPBmZQXINa3kt6nJALA21llJmLe3
+      i7Y5ASFqu4OFmYOjeLiKfpV1If35xjJAYuC93+xgfUoePPNgJP09bmTkOKO27MwD
+      9vZmYSShaY0Fscrrdpk8x2S6XNKfNkuN85zTsg/IbUUEpWgeAhZj2qHJlBbZkdhR
+      gqAFqQKBgF1EGFF2kLRsOlo+heNm4MhUDt/wV6pVNrTqOHMztzwJjWZIuAicIlvs
+      SE234yZILUzdC60Ic9tFUQ5Ku0NLKajvjBUq9jF6DuUQL9NHVnMdXhgcgrdkAq1U
+      EJVA2n3/PTECpXc+8Ys8HrOGkHp80VOb36lxs3nMLLDEaGC3dxVS
+      -----END RSA PRIVATE KEY-----
+  mbus: https://mbus:yuxharqigof1marxng5z@192.168.50.6:6868
+  properties:
+    agent:
+      mbus: https://mbus:yuxharqigof1marxng5z@0.0.0.0:6868
+    blobstore:
+      path: /var/vcap/micro_bosh/data/cache
+      provider: local
+    ntp:
+    - time1.google.com
+    - time2.google.com
+    - time3.google.com
+    - time4.google.com
+  template:
+    name: virtualbox_cpi
+    release: bosh-virtualbox-cpi
+disk_pools:
+- disk_size: 65536
+  name: disks
+instance_groups:
+- instances: 1
+  jobs:
+  - name: nats
+    release: bosh
+  - name: postgres-9.4
+    release: bosh
+  - name: blobstore
+    release: bosh
+  - name: director
+    release: bosh
+  - name: health_monitor
+    release: bosh
+  - name: virtualbox_cpi
+    properties:
+      agent:
+        mbus: nats://nats:lkfi7fq2xqw8cjiktwci@192.168.50.6:4222
+      blobstore:
+        address: 192.168.50.6
+        agent:
+          password: zbfpe0ifvqg819y5elt3
+          user: agent
+        port: 25250
+        provider: dav
+      ntp:
+      - 0.pool.ntp.org
+      - 1.pool.ntp.org
+    release: bosh-virtualbox-cpi
+  - name: warden_cpi
+    release: bosh-warden-cpi
+  - name: garden
+    release: garden-runc
+  - name: disable_agent
+    release: os-conf
+  - name: user_add
+    properties:
+      users:
+      - name: jumpbox
+        public_key: |
+          ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDlaMILtRz2ZWpq1emj3a4d8lWczsshv2ncYpTz7QTDZ9eAfeYhPy1B0u4CYpZKy03pqrjjkQTPFnNyxAasrV9AlhQ0FRT37kVaWIlNBDVTJWC0lpu2wda+ycz5+XkQ3aBOpOtI5n7wGB/AqKUc+UBRVS7lWCln6M7+r1a3WjM9c7EN4Cd7XgQhmf3HCMBKBO61yhA5pfaUiGXr5sLTYAAPDaj9lcu0e93srJUQtJpeOdOa5xodLzw2sRrnToUs146ss/qXku7wzYc97fQ5rKh0y0/uo0ad8E7XgBst+InBv7n0tdlzC64hccNXhquIYEfDr94112z6/1JJ0IucxR91
+    release: os-conf
+  name: bosh
+  networks:
+  - default:
+    - dns
+    - gateway
+    name: default
+    static_ips:
+    - 192.168.50.6
+  - name: outbound
+  persistent_disk_pool: disks
+  properties:
+    agent:
+      mbus: nats://nats:lkfi7fq2xqw8cjiktwci@192.168.50.6:4222
+    blobstore:
+      address: 192.168.50.6
+      agent:
+        password: zbfpe0ifvqg819y5elt3
+        user: agent
+      director:
+        password: zjo76tcd2fcmzgovvrmh
+        user: director
+      port: 25250
+      provider: dav
+    compiled_package_cache:
+      options:
+        blobstore_path: /var/vcap/store/tmp/compiled_package_cache
+      provider: local
+    director:
+      address: 127.0.0.1
+      cpi_job: warden_cpi
+      db:
+        adapter: postgres
+        database: bosh
+        host: 127.0.0.1
+        listen_address: 127.0.0.1
+        password: 3dc28d2ppyh9n5etqg61
+        user: postgres
+      default_ssh_options:
+        gateway_user: jumpbox
+      enable_dedicated_status_worker: true
+      enable_nats_delivered_templates: true
+      enable_post_deploy: true
+      events:
+        record_events: true
+      flush_arp: true
+      generate_vm_passwords: true
+      ignore_missing_gateway: true
+      name: Bosh Lite Director
+      ssl:
+        cert: |
+          -----BEGIN CERTIFICATE-----
+          MIIDQTCCAimgAwIBAgIRAOp2wdvoQv6fO/fPegM7yYowDQYJKoZIhvcNAQELBQAw
+          MzEMMAoGA1UEBhMDVVNBMRYwFAYDVQQKEw1DbG91ZCBGb3VuZHJ5MQswCQYDVQQD
+          EwJjYTAeFw0xNzA4MzExOTA1MjdaFw0xODA4MzExOTA1MjdaMD0xDDAKBgNVBAYT
+          A1VTQTEWMBQGA1UEChMNQ2xvdWQgRm91bmRyeTEVMBMGA1UEAxMMMTkyLjE2OC41
+          MC42MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA065Zjqw3oCTFr/iB
+          sCCNExWYzQUNHmTJEY6kkHcUgP3F9uMxESYFwkr7X78uJRdN8gVqbjsXNj5zUbr/
+          y/W/xppO/ORXGEUJAVEq2IM8GKB0GJ/8C1o4bINQIGjZ1y0ji5iWCcUn4zbzGdpp
+          IAd2nWys8kUnQLMP90ksRlC73WReVWewOXiNUGM2aJ0q0Q+0271qkmbtwEntkD+H
+          /WGFUmA2b3GcC1ZCozgA4pRlMFq3rMvLn5DKZyen2KhMYQRCtYbl5JyMAqlF6fYE
+          kTV2T0CPT3jP09oJX2c1vyptZIgP4Tx2eBXJiHWGenF65NAFPEDvPvF7QbocJeT7
+          OyMTSwIDAQABo0YwRDAOBgNVHQ8BAf8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUH
+          AwEwDAYDVR0TAQH/BAIwADAPBgNVHREECDAGhwTAqDIGMA0GCSqGSIb3DQEBCwUA
+          A4IBAQCFihATMsiR9SIDgvp8vFMBA9CXK39dPB5U1rDKgE1abtBNX+iLI6AViJdq
+          BdReUCFDeGAy6Zxo5kJENPupSD8Vc3mXVK6AGlqD+gQ255/qTXi+3mSzJ4ttJOeE
+          4h36xQfiL8VlTcBRr8t+YmtmDizH5NevgsEag4MmBdWqcyLVaalRoqQ/zA5ZD8A3
+          5uEAMkwc2ZSJl89qzGMVP60hgSno+znk2BGHp0vIAVZD8QszKduiXIHn7htKhgvG
+          145tLXkruPq+IoTt/N4jZiNv0oJzwNSK9H/aJiiUbGqQoUHyHURt4mReVqxLQFIH
+          iQK7VdYaiLy51HPqPsQWMdY3Stc8
+          -----END CERTIFICATE-----
+        key: |
+          -----BEGIN RSA PRIVATE KEY-----
+          MIIEpQIBAAKCAQEA065Zjqw3oCTFr/iBsCCNExWYzQUNHmTJEY6kkHcUgP3F9uMx
+          ESYFwkr7X78uJRdN8gVqbjsXNj5zUbr/y/W/xppO/ORXGEUJAVEq2IM8GKB0GJ/8
+          C1o4bINQIGjZ1y0ji5iWCcUn4zbzGdppIAd2nWys8kUnQLMP90ksRlC73WReVWew
+          OXiNUGM2aJ0q0Q+0271qkmbtwEntkD+H/WGFUmA2b3GcC1ZCozgA4pRlMFq3rMvL
+          n5DKZyen2KhMYQRCtYbl5JyMAqlF6fYEkTV2T0CPT3jP09oJX2c1vyptZIgP4Tx2
+          eBXJiHWGenF65NAFPEDvPvF7QbocJeT7OyMTSwIDAQABAoIBAQCypFUYPubC08Wx
+          +DsadJ4aGQPXIggsOkol8weWk6hOI9zJunpSSpBZpAX4i9NZog05zrA/TscMFDAm
+          LXZqnn62EMvQSLPn23r6DZHnHvm8nszba0i+G+m6Sid48oPFQGbbDG6y2BwNePY4
+          P0awrRvBR1G9M/codvVmb+5ZeRDSiLTZHAI0a7jGdbRzAlNMXhLzLg3z9PdplO1t
+          NLNUFUu7QJ+XZZsDJLPhPMu/A1X7vhWFGa50tYKDTclRN99WFzb0IRk4bmYcMVu+
+          ytsMIq9bWK69LUcZAsMBHVIiYp7smTJznS2zIrmha1irG7H1KojegoZDzTLp7k/F
+          YB/UvqdhAoGBAOlkL0TMdGJVpMN4q4/TdKMVQnB4hQ6oMmwyhTUHPlmiNW84ptD8
+          uAHMAwZQVkUrO41VzBQYMi1p8uCbP9BVAt6tg76EgmvhyfwdaKV9xqHAP+wxq4CP
+          c5qo6cw2I09vfLtvihkVcmiDg6TiFJ5UIynYJ2knlf1gYVIDEtV482BtAoGBAOgv
+          xuRS0+6csoMdmzAFGQbYkHxN5QDaTq7iJvb1lD1UdpA50rAPOwBmta/ieGK2qC90
+          IDr9O6lVoUn09JTKrKne++PPFGlJJMrAd/9EnjFYCGKVs6pwxVG4P0yw54/vozCw
+          Wf0uuLj/4shBhy5Ivn3sy4mBcq2FqEhxggxViB+XAoGBAJP6qqHThIOIy9QIYbbq
+          msyAQUTwlWTKrlW93onV0umgGIMxh0uAwOaaxNwu+dQXakXdvWyMPtxejdltdhOQ
+          oyYvHBYjDFJ8scXBm8U6L0QFkkIe6B+2VNUd/kc1mEPYa1yohwYKfCTaJhDYK7yL
+          mlQAslRQ/h/OCUannjxt2NotAoGAAUk6dctLpzew+W7xjBuLHvGWI0ofKZkL9IYG
+          JzoG/yv3mCbp1tXOwtrOyNGdTxap6dFf2FPMv8xcn1c+/4/70tkMVh+wgkDIdmMI
+          hx5vLeDJ8xnXK+uB/Ejj+N3F+pMeOUfQx8k5drTcIbXTNNtsSrBEFFfmNbXWz8fp
+          K35RybMCgYEAqkf/+Nui+Qh1G6cuCsLHqrsmFfit/503F8KCcE+60lFLrDIxAlHZ
+          DLRNBkOXgCDA0AaEvXPdmV3K6JXTCFlHnubRtqgQbUY2PcJ1kdGGnjkQDI+XN9Xc
+          NvKaM62cyAdOmkEyCUiE7snyzH/r67FIeN6o5NOP6p44ef1YP3dCUuU=
+          -----END RSA PRIVATE KEY-----
+      user_management:
+        local:
+          users:
+          - name: admin
+            password: 0br56ogagnotcblc4jbn
+          - name: hm
+            password: 50isugig6d4b9s9amrky
+        provider: local
+      workers: 4
+    garden:
+      allow_host_access: true
+      debug_listen_address: 127.0.0.1:17013
+      default_container_grace_time: 0
+      destroy_containers_on_start: true
+      graph_cleanup_threshold_in_mb: 0
+      listen_address: 127.0.0.1:7777
+      listen_network: tcp
+    hm:
+      director_account:
+        ca_cert: |
+          -----BEGIN CERTIFICATE-----
+          MIIDFDCCAfygAwIBAgIRAPW9PVuOqPs+Kkpg9avuWdowDQYJKoZIhvcNAQELBQAw
+          MzEMMAoGA1UEBhMDVVNBMRYwFAYDVQQKEw1DbG91ZCBGb3VuZHJ5MQswCQYDVQQD
+          EwJjYTAeFw0xNzA4MzExOTA1MjZaFw0xODA4MzExOTA1MjZaMDMxDDAKBgNVBAYT
+          A1VTQTEWMBQGA1UEChMNQ2xvdWQgRm91bmRyeTELMAkGA1UEAxMCY2EwggEiMA0G
+          CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdNBxTjKJSjb+85XNyH+hk2MkPTt7v
+          /Ah9wTJFDCpTM3SgV13u5nKrpJUsmJKMPHkvvW/bIP8DgSf/3Ky8ykTKj9uC9IKr
+          px5nzBlJZEJURdIVdD/F5tkzkbAliviGCqvBvrIpsZ34BHrlhCf8YcQfIZOhsK/w
+          Sq3Qmu0YsLJaA9z6aEc2fOMaM4BZ88YniNsozzgEV696Y1OqNGVmSSHOLI46vkcg
+          2W9QWG9ajNOV62qymo8wyatt/pWsdiBI3iC5DEg0TVzKVOBesTRJOsZ5WqPQOUP1
+          +KerN5MHGmXv1jPwtzfDK+WSWXNCw/7AUeRFMZyd8ApJxd6nxYznU39ZAgMBAAGj
+          IzAhMA4GA1UdDwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEB
+          CwUAA4IBAQCv2aM0s00aGo9bHBd3X7ElyYCW0IgzxLLJdLEN7+O+/C9DCzbAkQAQ
+          rxs+X8VgAnNRrl27gxLD+gyuX9op+UN+/9awgMuV0o29DerXyUwCj57Zu2dUWZ+B
+          SNhV38hOEdw+sMsVfc0H5xdKXffzAGuH3ActYZRXjNgoebSxb5TeC/r6bsXV4uDL
+          rfa8zRSixlCrEtxDrnriMpdNTLIlhuOjTsQAa5xmgAQ0nigHeveKVa0ECLHNQ6G2
+          /+etmPpa0vPJy9QuKK7PJD9okAJlOT6s76Db0fFLP/yw9XjB10AJEov7mkIQkd4A
+          AYY2zceV923WGrOvj8wMgnFAwbVAkDV2
+          -----END CERTIFICATE-----
+        password: 50isugig6d4b9s9amrky
+        user: hm
+      resurrector_enabled: true
+    nats:
+      address: 127.0.0.1
+      password: lkfi7fq2xqw8cjiktwci
+      user: nats
+    ntp:
+    - time1.google.com
+    - time2.google.com
+    - time3.google.com
+    - time4.google.com
+    postgres:
+      adapter: postgres
+      database: bosh
+      host: 127.0.0.1
+      listen_address: 127.0.0.1
+      password: 3dc28d2ppyh9n5etqg61
+      user: postgres
+    warden_cpi:
+      agent:
+        blobstore:
+          options:
+            endpoint: http://10.254.50.4:25250
+            password: zbfpe0ifvqg819y5elt3
+            user: agent
+          provider: dav
+        mbus: nats://nats:lkfi7fq2xqw8cjiktwci@10.254.50.4:4222
+      host_ip: 10.254.50.4
+      warden:
+        connect_address: 127.0.0.1:7777
+        connect_network: tcp
+  resource_pool: vms
+name: bosh
+networks:
+- name: default
+  subnets:
+  - dns:
+    - 8.8.8.8
+    gateway: 192.168.50.1
+    range: 192.168.50.0/24
+    static:
+    - 192.168.50.6
+  type: manual
+- cloud_properties:
+    name: NatNetwork
+    type: natnetwork
+  name: outbound
+  type: dynamic
+releases:
+- name: bosh
+  sha1: 1eae3f06282417e54ebb199656458f9d6c38e2af
+  url: https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-262.3-ubuntu-trusty-3421.9-20170706-183731-831697577-20170706183736.tgz?versionId=7GmwKfufgb5JwWhJ.cwIWLnejOtm2Hu4
+  version: "262.3"
+- name: bosh-virtualbox-cpi
+  sha1: 0b39e1b43a509adba295275fcc2afee1fb046c5d
+  url: https://bosh.io/d/github.com/cppforlife/bosh-virtualbox-cpi-release?v=0.0.11
+  version: 0.0.11
+- name: bosh-warden-cpi
+  sha1: 4bb373ba2331cc5b17fb6fb41921e308caab9222
+  url: https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-warden-cpi-34-ubuntu-trusty-3421.9-20170621-054713-292897174-20170621054718.tgz?versionId=nPiYCAltzyFMN8eghQf6.YbkBYQBw9MR
+  version: "34"
+- name: os-conf
+  sha1: af5a2c9f228b9d7ec4bd051d71fef0e712fa1549
+  url: https://bosh.io/d/github.com/cloudfoundry/os-conf-release?v=12
+  version: 12
+- name: garden-runc
+  sha1: 9ff57b5d8467fb49d8f383a626b5f8f64e9efb76
+  url: https://s3.amazonaws.com/bosh-compiled-release-tarballs/garden-runc-1.1.1-ubuntu-trusty-3421.9-20170621-054813-858784694-20170621054819.tgz?versionId=S53sWxU6eE_ChRsAnCCkzvi_JT9RGlNl
+  version: 1.1.1
+resource_pools:
+- cloud_properties:
+    cpus: 2
+    ephemeral_disk: 16384
+    memory: 4096
+  env:
+    bosh:
+      mbus:
+        cert:
+          ca: |
+            -----BEGIN CERTIFICATE-----
+            MIIDFDCCAfygAwIBAgIRAPW9PVuOqPs+Kkpg9avuWdowDQYJKoZIhvcNAQELBQAw
+            MzEMMAoGA1UEBhMDVVNBMRYwFAYDVQQKEw1DbG91ZCBGb3VuZHJ5MQswCQYDVQQD
+            EwJjYTAeFw0xNzA4MzExOTA1MjZaFw0xODA4MzExOTA1MjZaMDMxDDAKBgNVBAYT
+            A1VTQTEWMBQGA1UEChMNQ2xvdWQgRm91bmRyeTELMAkGA1UEAxMCY2EwggEiMA0G
+            CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdNBxTjKJSjb+85XNyH+hk2MkPTt7v
+            /Ah9wTJFDCpTM3SgV13u5nKrpJUsmJKMPHkvvW/bIP8DgSf/3Ky8ykTKj9uC9IKr
+            px5nzBlJZEJURdIVdD/F5tkzkbAliviGCqvBvrIpsZ34BHrlhCf8YcQfIZOhsK/w
+            Sq3Qmu0YsLJaA9z6aEc2fOMaM4BZ88YniNsozzgEV696Y1OqNGVmSSHOLI46vkcg
+            2W9QWG9ajNOV62qymo8wyatt/pWsdiBI3iC5DEg0TVzKVOBesTRJOsZ5WqPQOUP1
+            +KerN5MHGmXv1jPwtzfDK+WSWXNCw/7AUeRFMZyd8ApJxd6nxYznU39ZAgMBAAGj
+            IzAhMA4GA1UdDwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEB
+            CwUAA4IBAQCv2aM0s00aGo9bHBd3X7ElyYCW0IgzxLLJdLEN7+O+/C9DCzbAkQAQ
+            rxs+X8VgAnNRrl27gxLD+gyuX9op+UN+/9awgMuV0o29DerXyUwCj57Zu2dUWZ+B
+            SNhV38hOEdw+sMsVfc0H5xdKXffzAGuH3ActYZRXjNgoebSxb5TeC/r6bsXV4uDL
+            rfa8zRSixlCrEtxDrnriMpdNTLIlhuOjTsQAa5xmgAQ0nigHeveKVa0ECLHNQ6G2
+            /+etmPpa0vPJy9QuKK7PJD9okAJlOT6s76Db0fFLP/yw9XjB10AJEov7mkIQkd4A
+            AYY2zceV923WGrOvj8wMgnFAwbVAkDV2
+            -----END CERTIFICATE-----
+          certificate: |
+            -----BEGIN CERTIFICATE-----
+            MIIDQTCCAimgAwIBAgIRAMibukE6L44bojDFd89+APwwDQYJKoZIhvcNAQELBQAw
+            MzEMMAoGA1UEBhMDVVNBMRYwFAYDVQQKEw1DbG91ZCBGb3VuZHJ5MQswCQYDVQQD
+            EwJjYTAeFw0xNzA4MzExOTA1MjdaFw0xODA4MzExOTA1MjdaMD0xDDAKBgNVBAYT
+            A1VTQTEWMBQGA1UEChMNQ2xvdWQgRm91bmRyeTEVMBMGA1UEAxMMMTkyLjE2OC41
+            MC42MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtFEZ8ptDpDODNwm4
+            pRcLi+tN6RCyNs5XrYSFHbQzINZSz/g9qYh9pdZWbZiDO4N2YZUeuz9ocdNGCN7y
+            W+YiooP/OQV16hCa5bBG9xFx1ZgzdxUGINWLYVtEUoT7KT8lwNbqbH9McmnGnUni
+            nUfyfb6Cr8edqWL/4rOMUn8sy2b4/X789xWkDL8Cy8bNXS2COOMUtz0XnOmArVkI
+            PH077BP4tatAeLisfVvfyQ+UepZGvLcceOdg24CERhl/NpRAMfzdjFtOoD5L07kC
+            l9mdtafhw+BSutaThcr7EnhGmfHoZVfJe/7/Om5sZSlym49p9OTN2Vg+NyQ/VtnJ
+            FNhe4QIDAQABo0YwRDAOBgNVHQ8BAf8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUH
+            AwEwDAYDVR0TAQH/BAIwADAPBgNVHREECDAGhwTAqDIGMA0GCSqGSIb3DQEBCwUA
+            A4IBAQCB837cJ+7ndwzsvXpaoLpjNbb0uLIyBrWwtx66scVrh0xD9CH+8Seta3pe
+            w8nqKOcUtwXoCWY80TWMx/onCnQYwbJqk3nK1uacwI0E1V4gKp/cnGkQJ/onrVRA
+            arXCUinmhruBWduFevLzpZh/vfEd7FV+xRymG4i+ywX3Hr8PhUiPHd9DLSTS3hNW
+            eQ/BWxivObj0vl20i6p8BGXo/B4WX49le2Pw79TKlzYd7d18PlIQFs9SLJYrgL1S
+            Bo3wdI0YnDSA78hRV0C5JP4Mri4+25wbY4OGys7dBzR0TN7X5R5k2OB/J3y/osja
+            MheqLQKnn1S4NFeKmT75oY0SkFwH
+            -----END CERTIFICATE-----
+          private_key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEowIBAAKCAQEAtFEZ8ptDpDODNwm4pRcLi+tN6RCyNs5XrYSFHbQzINZSz/g9
+            qYh9pdZWbZiDO4N2YZUeuz9ocdNGCN7yW+YiooP/OQV16hCa5bBG9xFx1ZgzdxUG
+            INWLYVtEUoT7KT8lwNbqbH9McmnGnUninUfyfb6Cr8edqWL/4rOMUn8sy2b4/X78
+            9xWkDL8Cy8bNXS2COOMUtz0XnOmArVkIPH077BP4tatAeLisfVvfyQ+UepZGvLcc
+            eOdg24CERhl/NpRAMfzdjFtOoD5L07kCl9mdtafhw+BSutaThcr7EnhGmfHoZVfJ
+            e/7/Om5sZSlym49p9OTN2Vg+NyQ/VtnJFNhe4QIDAQABAoIBACFo8YTZLeRLwyE8
+            hODZ70LCm5H2jP7Ipsg4yK1jSSHpdDiih1JVPuquVx9BZfdt+U5FYgdRzVlhyxUz
+            sfZDIuG30V9QWrO+1eR/D/cRXWU1KTwEQjltN8EXNwaPKzZORAGCELd/srt0S9+y
+            4/E+dnjEBtTpCJZtCHqJyBM1Cyi4oK1z3oPvMBzyJiERVOhu369sKnDqsq06b2fI
+            rX8l8BIlsPbR7515vofPrVpWNWHMvSC/Zvt7UN9X7GXU5dYp5LICqnxqGDqWEOHE
+            75+OlUPQHCA3qtkjPdaT9XlnZ2GY0TjyzfNcsGfSc0jmbeysiT79AjoWRfHGEWz+
+            UveuIy0CgYEA68ZqAkZp/3tHe7u0gJ7BXJldTmIxbwCqLBKF2GB+o8VVlf5X8/mb
+            F5zeNJnR9ugBiKZqwWHYT2cH1+RLX47osuBlkxYDdVOTjZGvI5VO95m7uXrU26j6
+            4wLyfbyuNk4CUSOBvYuNkGmlMwKYnea4VXknAqSYOee/WygapcY9cesCgYEAw8jV
+            BE7FfQ67MxaTfc6OC2QIMQbpjm2MVH6oUjStggjP5wmnMkhmYMAP7tDNVpFgdd7i
+            IPgaooHMsOYW0l3eC/CbDdl65RHtDsC+7+LknCZkdAFet4r+ebj3u29y5Mh8G1zS
+            FdgknVU/eK/sCSgQsvey48koVJb9GZUQOHPKs2MCgYBCndQUAnsukVF4N2ffs3tk
+            w3xmij33ZBOw0ib5JQKDGV1+PNfy+kKE4HC0IgX+Ij1Us9iT/SZWAQFpUXqubD15
+            VQe+EEk33D5jkJcQkb43HTu6Q2djDRKeE5YaSrZaZ54l+MdOm+CKvh7ME961Npw8
+            ojeQepr8OWuKwQEOd72iswKBgQCf5aGzhvHblPBmZQXINa3kt6nJALA21llJmLe3
+            i7Y5ASFqu4OFmYOjeLiKfpV1If35xjJAYuC93+xgfUoePPNgJP09bmTkOKO27MwD
+            9vZmYSShaY0Fscrrdpk8x2S6XNKfNkuN85zTsg/IbUUEpWgeAhZj2qHJlBbZkdhR
+            gqAFqQKBgF1EGFF2kLRsOlo+heNm4MhUDt/wV6pVNrTqOHMztzwJjWZIuAicIlvs
+            SE234yZILUzdC60Ic9tFUQ5Ku0NLKajvjBUq9jF6DuUQL9NHVnMdXhgcgrdkAq1U
+            EJVA2n3/PTECpXc+8Ys8HrOGkHp80VOb36lxs3nMLLDEaGC3dxVS
+            -----END RSA PRIVATE KEY-----
+      password: '*'
+  name: vms
+  network: default
+  stemcell:
+    sha1: f5de77161ee2cc4014cde055c845f7b1cfc9f005
+    url: https://bosh.io/d/stemcells/bosh-vsphere-esxi-ubuntu-trusty-go_agent?v=3421.9
+variables: []

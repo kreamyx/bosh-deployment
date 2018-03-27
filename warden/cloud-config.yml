@@ -13,6 +13,7 @@ disk_types:
 networks:
 - name: default
   type: manual
+  managed: true
   subnets:
   - azs: [z1, z2, z3]
     dns: [8.8.8.8]
@@ -20,6 +21,8 @@ networks:
     gateway: 10.244.0.1
     static: [10.244.0.34]
     reserved: []
+    cloud_properties:
+      vpc: 'vpc name'
 
 compilation:
   workers: 5

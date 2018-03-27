@@ -3,9 +3,9 @@ name: bosh
 
 releases:
 - name: bosh
-  version: "264.7.0"
-  url: https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-264.7.0-ubuntu-trusty-3468.21-20180125-031202-579399892-20180125031207.tgz?versionId=gnR.RVKDRH_Vk63jxsGBOhcHOZ9p8qCJ
-  sha1: 3850c68124bf5bce3cfb1433cce52e2d67741d94
+  version: "dev"
+  url: file:///Users/elghamrawyk/workspace/bosh/dev_releases/bosh/dev-bosh.tar.gz
+  sha1: 1eae3f06282417e54ebb199656458f9d6c38e2af
 
 resource_pools:
 - name: vms
@@ -79,6 +79,11 @@ instance_groups:
       agent:
         user: agent
         password: ((blobstore_agent_password))
+      tls:
+        cert:
+          ca: ((nats_ca.certificate))
+          certificate: ((nats_server_tls.certificate))
+          private_key: ((nats_server_tls.private_key))
     director:
       address: 127.0.0.1
       name: ((director_name))
@@ -90,6 +95,8 @@ instance_groups:
       enable_nats_delivered_templates: true
       workers: 4
       local_dns:
+        enabled: true
+      network_lifecycle:
         enabled: true
       events:
         record_events: true

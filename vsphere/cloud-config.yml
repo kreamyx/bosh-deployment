@@ -2,15 +2,8 @@ azs:
 - name: z1
   cloud_properties:
     datacenters:
-    - clusters: [((vcenter_cluster)): {}]
-- name: z2
-  cloud_properties:
-    datacenters:
-    - clusters: [((vcenter_cluster)): {}]
-- name: z3
-  cloud_properties:
-    datacenters:
-    - clusters: [((vcenter_cluster)): {}]
+    - name: vcpi-dc 
+      clusters: ['vcpi-cluster-1': {}, 'vcpi-cluster-2': {}]
 
 vm_types:
 - name: default
@@ -33,14 +26,15 @@ disk_types:
 networks:
 - name: default
   type: manual
+  managed: true
   subnets:
-  - range: ((internal_cidr))
-    gateway: ((internal_gw))
-    azs: [z1, z2, z3]
+  - range: '192.168.111.0/24'
+    gateway: '192.168.111.1'
+    azs: [z1]
     dns: [8.8.8.8]
-    reserved: []
+    reserved: [192.168.111.3]
     cloud_properties:
-      name: ((network_name))
+      vds: 'vcpi-switch-1' 
 
 compilation:
   workers: 5
