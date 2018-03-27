@@ -5,7 +5,6 @@ releases:
 - name: bosh
   version: "dev"
   url: file:///Users/elghamrawyk/workspace/bosh/dev_releases/bosh/dev-bosh.tar.gz
-  sha1: 1eae3f06282417e54ebb199656458f9d6c38e2af
 
 resource_pools:
 - name: vms
